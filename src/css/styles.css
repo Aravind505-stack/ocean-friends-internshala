@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+header p {
+    margin: 5px 0;
+    color: #777;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.search-container input {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.filter-button, .profile-button {
+    background-color: #fff;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+nav li.active {
+    background-color: #006d5b;
+    color: #fff;
+    border-radius: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.recipe-card {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px;
+    width: 200px;
+}
+
+.recipe-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.recipe-info {
+    padding: 15px;
+    text-align: center;
+}
+
+.recipe-info h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.recipe-info p {
+    margin: 5px 0;
+    color: #777;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.rating span {
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+.rating img {
+    width: 16px;
+    height: 16px;
+}
+
+.food-image {
+    width: 120px;
+    height: fit-content;
+
+
+
+}
+
+.time-span {
+    margin-left: auto; /* Pushes the time span to the right end */
+}
+
+
+
+    
